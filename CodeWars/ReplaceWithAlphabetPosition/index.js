@@ -4,19 +4,20 @@
 // Account for Lowercase/Uppercase
 // add numbers to empty array
 // join numbers with a space
+// remember to add kyu
 
-// function alphabetPosition(text) {
-//   text = text.toLowerCase();
-//   console.log(text);
-//   let unicodeArr = [];
-//   let alphabet = /[A-Za-z]/;
-//   for (let i = 0; i < text.length; i++) {
-//     if (alphabet.test(text[i])) {
-//       unicodeArr.push(text[i].charCodeAt());
-//     }
-//   }
-//   unicodeArr = unicodeArr.map((x) => x - 78);
-//   return unicodeArr.join(" ");
-// }
+function alphabetPosition(text) {
+  text = text.toLowerCase();
+  console.log(text);
+  let unicodeArr = [];
+  let alphabet = /[A-Za-z]/;
+  for (let i = 0; i < text.length; i++) {
+    if (alphabet.test(text[i])) {
+      unicodeArr.push(text[i].charCodeAt());
+    }
+  }
+  unicodeArr = unicodeArr.map((x) => x - 78);
+  return unicodeArr.join(" ");
+}
 
-// alphabetPosition("The sunset sets at twelve o' clock.");
+alphabetPosition("The sunset sets at twelve o' clock.");
