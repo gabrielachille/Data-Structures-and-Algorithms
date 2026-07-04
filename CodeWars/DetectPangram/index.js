@@ -1,4 +1,4 @@
-//Create function to detect is string uses every word
+//Create function to detect is string uses every letter
 //in the alphabet
 //ex "The quick brown fox jumps over the lazy dog"
 //case insensitive
