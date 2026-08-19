@@ -1,6 +1,6 @@
 //Return the sum of every number thats divisible by
-3 and 5 in a given number
-6 kyu
+// 3 and 5 in a given number
+// 6 kyu
 
 function solution(number) {
   let sum = 0;
