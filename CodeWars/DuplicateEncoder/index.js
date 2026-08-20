@@ -1,7 +1,7 @@
 // take given string and return "(" for characters that only appear once
 // and ")" for characters that appear multiple times
 // case insensitive
-//6kyu
+// 6kyu
 
 function duplicateEncode(word) {
   word = word.toLowerCase().split("");
