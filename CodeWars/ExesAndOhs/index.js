@@ -5,20 +5,20 @@
 //return true/false both counts equal eachother
 //7kyu
 
-// function XO(str) {
-//   str = str.toLowerCase().split("");
-//   return (
-//     str.filter((x) => x.match(/x/gi)).length ===
-//     str.filter((x) => x.match(/o/gi)).length
-//   );
-// }
+function XOequalNumber(str) {
+  str = str.toLowerCase().split("");
+  return (
+    str.filter((x) => x.match(/x/gi)).length ===
+    str.filter((x) => x.match(/o/gi)).length
+  );
+}
 
 console.log(XO("ooxx"));
 console.log(XO("xooxx"));
 
-function XO(str) {
-  return (
-    str.split("").filter((x) => x.match(/x/gi)).length ===
-    str.split("").filter((x) => x.match(/o/gi)).length
-  );
-}
+// function XO(str) {
+//   return (
+//     str.split("").filter((x) => x.match(/x/gi)).length ===
+//     str.split("").filter((x) => x.match(/o/gi)).length
+//   );
+// }
