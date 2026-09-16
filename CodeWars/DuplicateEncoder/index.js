@@ -3,14 +3,14 @@
 // case insensitive
 // 6kyu
 
-function duplicateEncode(word) {
-  word = word.toLowerCase().split("");
-  return word
-    .map((char, i, word) => {
-      return word.indexOf(char) == word.lastIndexOf(char) ? "(" : ")";
-    })
-    .join("");
-}
+// function duplicateEncode(word) {
+//   word = word.toLowerCase().split("");
+//   return word
+//     .map((char, i, word) => {
+//       return word.indexOf(char) == word.lastIndexOf(char) ? "(" : ")";
+//     })
+//     .join("");
+// }
 
 console.log(duplicateEncode("din"));
 console.log(duplicateEncode("recede"));
